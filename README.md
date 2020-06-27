@@ -11,7 +11,10 @@ Both the trading strategies and baseline models rely on the class defined in the
 With inheritance the class functions are inherited by the other classes. This allows to only define the base
 for simulation once, since all those functions have to be used in all the trading algorithms. <br> 
 
-
+The library can be installed with pip : 
+```console
+pip install --upgrade git+https://github.com/jobvancreij/trading_algorithms
+```
 
 All trading algorithms/baseline models follow a same code pattern to run simulations. Simply import the
 correct strategy and change the created object (trading_algorithm)
