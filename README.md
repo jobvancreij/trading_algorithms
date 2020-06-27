@@ -13,7 +13,8 @@ for simulation once, since all those functions have to be used in all the tradin
 
 
 
-All trading algorithms/baseline models follow a same code pattern
+All trading algorithms/baseline models follow a same code pattern to run simulations. Simply import the
+correct strategy and change the created object (trading_algorithm)
 ```python
 from trading_algorithms.trading_strategies.trading_strategy_1 import Simple
 predictions = [] #list with predictions 
