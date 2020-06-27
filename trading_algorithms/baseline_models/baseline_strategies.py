@@ -3,7 +3,7 @@ import random
 from trading_algorithms.simulation_algorithm import *
 
 
-class pseudo_random(Trader):
+class Pseudo_random(Trader):
     """
     This class contains the functions to simulate random baseline strategy in this thesis
     Which works as following:
