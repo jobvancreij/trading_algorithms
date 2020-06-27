@@ -1,6 +1,6 @@
 from trading_algorithms.simulation_algorithm import *
 
-class conseq_simple(Trader):
+class Conseq_simple(Trader):
     """
     This class contains the functions to simulate the second trading strategy in this thesis
     Which works as following:
