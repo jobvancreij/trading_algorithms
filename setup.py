@@ -12,7 +12,7 @@ if sys.version_info[0] != 3: #raise exception when not using python3
 
 
 setuptools.setup(
-    name="LJT_database",
+    name="trading_algorithms",
     version="0.0.2",
     author="Job van Creij & Lex Fons",
     author_email="jobvancrey@hotmail.com",
